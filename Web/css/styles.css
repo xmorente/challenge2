@@ -89,3 +89,109 @@ main{
     background-color: black;
     
 }
+@media(min-width: 900px){
+    
+   .navbar{
+       height: 70px;
+       padding: 20px;
+   }
+    .main_header{
+       width: 100vw;
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 67rem;
+    }
+    .main{
+        display: flex;
+       
+    }
+    .img_container{
+        display: flex;
+        flex-direction: row;
+    }
+    .main_img{
+        height: 700px;
+        width: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .img_title ,.img_subtitle{
+
+        font-size: 20px;
+        
+    }
+    .header_title{
+        font-size: 1.8rem;
+        
+    }
+    .header_subtitle{
+        font-size: 5rem;
+    }
+    .hamburguer{
+        display: none;
+    }
+    .main_img > h3{
+        visibility: hidden;
+    }
+    .main_img:hover > h3{
+        visibility: visible;
+    }
+    .header_btn{
+        height: 90px;
+        width: 110px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+    }
+    .header_btn:hover{
+        background-color: white;
+        color: rgba(237,100,54,255);
+        border: 1px solid rgba(237,100,54,255) ;
+    }
+   
+    .img_container .img_subtitle:hover {
+        display: block;
+    }
+  
+    ul{
+        list-style: none;
+      }
+      .btn_nav{
+          height: 50px;
+          font-size: 13px;
+          width: 90px;
+          background-color: white;
+          color: black;
+          border: 1px solid rgba(237,100,54,255);
+          
+      }
+      .btn_nav:hover{
+          background-color: rgba(237,100,54,255);
+          color: white;
+      }
+      #menu li>a{
+        
+        color: Black;
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        min-width: 100px;
+      }
+      #menu li>a:hover{
+        color: rgba(237,100,54,255);
+        
+      }
+      #menu>li{
+        float: left;
+        text-align:center
+      }
+      #menu>li>ul{
+        display: none;
+      }
+      #menu>li:hover>ul {
+        display:block;
+      }
+}
