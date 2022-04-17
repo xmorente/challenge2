@@ -6,27 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header>
         
     <nav class="navbar">
-        <img src="/images/logo2.png" alt="Logo" height="40px" width="40px">
+        <img src="/images/logo2.png" id="logo" alt="Logo" height="40px" width="40px">
         <div class="hamburguer">
             <div class="lines"></div>
             <div class="lines"></div>
             <div class="lines"></div>
         </div>
+        <div class="menu_pc">
+            <ul id="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Live Demo</a>
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li>asd</li>
+                </ul>
+                </li>
+                <li><a href="">Live Demo Blocks</a>
+                <ul>
+                    <li>hola</li>
+                    <li>hola</li>
+                </ul>
+                </li>
+                <button class="header_btn btn_nav">Buy Now</button>
+            </ul>
+        </div>
     </nav>
     </header>
     <main class="main">
         <header class="main_header">
+            <div>
             <h4 class="header_title">PET ACTIVITIES</h4>
             <h2 class="header_subtitle">Take a closer look</h2>
+            </div>
             <button class="header_btn">VIEW ALL</button>
         </header>
-
+        <div class="img_container">
         <div class="main_img img1">
             <h5 class="img_title">ACTIVITIES</h5>
             <h3 class="img_subtitle">Toys playtime</h3>
@@ -39,6 +60,7 @@
             <h5 class="img_title">ACTIVITIES</h5>
             <h3 class="img_subtitle">Game Walks</h3>
         </div>
+    </div>
     </main>
 </body>
 </html>
